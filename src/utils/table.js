@@ -61,3 +61,19 @@ export const tableList = [
         name: "tbCell_traffic",
     },
 ];
+
+export const tableList2 = [
+    {
+        label: "小区/基站工参表 tbCell",
+        value: "tb-cell",
+        name: "tbCell",
+    }, {
+        label: "优化小区2020/07/17-2020/07/19KPI指标统计表 tbKPI",
+        value: "tb-cell-kpi",
+        name: "tbKPI",
+    }, {
+        label: "优化区17日-19日PRB干扰查询 tbPRB",
+        value: "tb-prb",
+        name: "tbPRB",
+    },
+];

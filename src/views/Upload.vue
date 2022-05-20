@@ -16,7 +16,7 @@
         @change="handleChange"
       >
         <el-option
-          v-for="item in tableList"
+          v-for="item in tableList2"
           :key="item.label"
           :label="item.label"
           :value="item"
@@ -42,6 +42,7 @@
 <script>
 import { BACKEND } from "../utils/backend";
 import { tableList } from "../utils/table";
+import { tableList2 } from "../utils/table";
 export default {
   data() {
     return {
@@ -52,6 +53,7 @@ export default {
         name: "",
       },
       tableList: tableList,
+      tableList2:tableList2,
     };
   },
   methods: {

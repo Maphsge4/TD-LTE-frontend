@@ -27,7 +27,7 @@
 
 <script>
 import { BACKEND } from "../utils/backend";
-import { tableList } from "../utils/table";
+import { tableList2 } from "../utils/table";
 export default {
   data() {
     return {
@@ -36,7 +36,7 @@ export default {
         value: "",
         name: "",
       },
-      tableList: tableList,
+      tableList: tableList2,
     };
   },
   methods: {
